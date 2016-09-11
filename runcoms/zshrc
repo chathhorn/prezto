@@ -11,3 +11,15 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+export PATH=/home/chathhorn/bin:$PATH
+export PATH=/home/chathhorn/.cabal/bin:$PATH
+export PATH=/home/chathhorn/.local/bin:$PATH
+
+export EDITOR=vim
+
+setopt noshare_history
+
+alias rm="nocorrect rm"
+
+alias rgrep="nocorrect rgrep --color=auto"
